@@ -29,7 +29,7 @@ click('登 录')
 sleep(2)
 click(S('.ant-modal-close-x'))
 #el=driver.find_element_by_xpath(loc1)
-#doubleclick(el)
+#doubleclick(el)11111111
 #doubleclick('内分泌门诊')
 #click('已接诊')
 #doubleclick('测试患者一')

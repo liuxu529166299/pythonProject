@@ -24,7 +24,7 @@ options = Options().conf_option()
 driver = start_chrome(home_url,options=options)
 write(login_name,TextField('请输入用户名'))
 write(login_pwd,TextField('请输入密码'))
-#click('//*[@id="root"]/div/div/div[2]/form/div[4]/div/div/span/button')ddddddddddddddddddd
+#click('//*[@id="root"]/div/div/div[2]/form/div[4]/div/div/span/button')
 click('登 录')
 sleep(2)
 click(S('.ant-modal-close-x'))
